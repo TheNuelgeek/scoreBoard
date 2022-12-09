@@ -1,0 +1,103 @@
+
+@font-face {
+    font-family: cursed_timer_ulil;
+    src: url(CursedTimerULiL.ttf);
+}
+
+body {
+    margin: 0;
+    background-image: url("https://c0.wallpaperflare.com/preview/823/100/961/stadium-people-crowd-person.jpg");
+    background-size: cover;
+    opacity: 0.91;
+    background-color: rgb(33, 47, 73);
+}
+
+h3{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1B244A;
+    color: white;
+    margin: 200px auto 0 auto;
+    width: 800px;
+    height: 500px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+    
+
+}
+
+.score-number{
+    font-family: cursed_timer_ulil;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+}
+
+#score{
+    color: #F94F6D;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+#score22{
+    color: #F94F6D;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.btn-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.add-btn, .add-btn2{
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: cursed_timer_ulil;
+    margin-top: 20px;
+    padding: 6px 0 0 0;
+    background: #1B244A;
+    border: solid 2px #9AABD8;
+    color: #9AABD8;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#reset{
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: cursed_timer_ulil;
+    margin-top: 20px;
+    padding: 6px 0 0 0;
+    background: #1B244A;
+    border: solid 2px #9AABD8;
+    color: #9AABD8;
+    font-size: 18px;
+    cursor: pointer;
+}
